@@ -22,12 +22,7 @@
 
 
 
-##  Ejercicio 4: Corrección de errores
-
-for i in range(100):
-    print(I**2)
-
-## Ejercicio 5
+## Ejercicio 4
 * Utilizando la misma base `flights.csv`
 
 ### Hacer un loop  y clasificar los meses con una cantidad de pasajeros menor a la media
@@ -37,7 +32,7 @@ for i in range(100):
 * Ejecuten un loop que recorra cada observación de `passengers`, donde si la observación es menor a la media de `passengers` se le asigne a `underperforming` un 1.
 * Para asignar unos en la columna `underperforming` ya creada, utilice la función `set_value`.
 
-## Ejercicio 6:Hacer un loop que clasifique los meses donde la cantidad de pasajeros se escapa de la tendencia.
+## Ejercicio 5: Hacer un loop que clasifique los meses donde la cantidad de pasajeros se escapa de la tendencia.
 
 * Para ello, genere dos objetos que guarden la media general y la desviación estandar general de `passengers`.
 * Genere una nueva columna en la tabla de datos que se llame `outlier` y asignele 0.
