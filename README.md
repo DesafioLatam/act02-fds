@@ -7,11 +7,11 @@
 
 ## Ejercicio 1: Generar un par de arrays ficticios con `numpy`
 
-* _tip:_ utilice la función `linspace` para generar un array entre 1 y 50, y un array entre 50 y 150.
+* Utilice la función `np.linspace` para generar un array entre 1 y 50, y un array entre 50 y 150.
 
 ## Ejercicio 2: Ejecute un loop que devuelva si el número en el primer array es par o impar
 
-* _tip:_ utilice la función módulo para encontrar si el número es divisible por 2.
+* Para averiguar si el cada número es par o impar puede implementar el operador de módulo (`%`) para encontrar si el número es divisible por 2.
 
 ## Ejercicio 3: Genere un loop con el segundo array que cuente las siguientes condiciones
 
@@ -25,7 +25,7 @@
 ## Ejercicio 4
 * Utilizando la misma base `flights.csv`
 
-### Hacer un loop  y clasificar los meses con una cantidad de pasajeros menor a la media
+### Hacer un loop y clasificar los meses con una cantidad de pasajeros menor a la media
 
 * Para ello, generen un nuevo objeto que represente la media de `passengers`.
 * Generen una columna en la base de datos que se llame `underperforming` y asígnele 0.
