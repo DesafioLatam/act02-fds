@@ -30,16 +30,16 @@
 * Para ello, generen un nuevo objeto que represente la media de `passengers`.
 * Generen una columna en la base de datos que se llame `underperforming` y asígnele 0.
 * Ejecuten un loop que recorra cada observación de `passengers`, donde si la observación es menor a la media de `passengers` se le asigne a `underperforming` un 1.
-* Para asignar unos en la columna `underperforming` ya creada, utilice la función `set_value`.
+* Para asignar unos en la columna `underperforming` ya creada, utilice la función `at`. Lea la documentación asociada para ver qué parámetros ingresa.
 
 ## Ejercicio 5: Hacer un loop que clasifique los meses donde la cantidad de pasajeros se escapa de la tendencia.
 
 * Para ello, genere dos objetos que guarden la media general y la desviación estandar general de `passengers`.
-* Genere una nueva columna en la tabla de datos que se llame `outlier` y asignele 0.
+* Genere una nueva columna en la tabla de datos que se llame `outlier` y asígnele 0.
 * Ejecuten un loop que recorra cada observación de `passengers`, donde si la observación se escapa de la tendencia sea 1, de lo contrario 0.
 * Para clasificar los casos que se escapen la tendencia, la observación debe satisfacer una de las siguientes condiciones:
     - La observación debe ser menor a la  media menos la desviación estándar, o
     - La observación debe ser mayor a la media más la desviación estándar.
-    
+
 #### ¿Cuántas observaciones se pueden clasificar como casos extremos?
 
